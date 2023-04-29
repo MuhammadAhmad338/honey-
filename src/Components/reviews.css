@@ -1,0 +1,51 @@
+.review-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.box {
+    padding: 35px ;
+    background: var(--other-color);
+    border-radius: 3rem;
+}
+
+.box p {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.in-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bx-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+}
+
+.bxx-text h4 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.bxx-text h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--second-color);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.ratings i {
+    font-size: 18px;
+    color: var(--main-color);
+    margin-right: 5px;
+}
